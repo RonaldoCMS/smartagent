@@ -1,0 +1,61 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'gruppo3.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Gruppo3 _$Gruppo3FromJson(Map<String, dynamic> json) => Gruppo3(
+      idARGruppo3: json['id_ARGruppo3'] as int?,
+      cdARGruppo1: json['cd_ARGruppo1'] as String?,
+      cdARGruppo2: json['cd_ARGruppo2'] as String?,
+      cdARGruppo3: json['cd_ARGruppo3'] as String?,
+      descrizione: json['Descrizione'] as String?,
+      sconto: json['sconto'] as String?,
+      provvigione: json['provvigione'] as String?,
+      cdCAVdaVI: json['cd_CAVda_VI'],
+      cdCAVdaVE: json['cd_CAVda_VE'],
+      cdCAVdaAI: json['cd_CAVda_AI'],
+      cdCAVdaAE: json['cd_CAVda_AE'],
+      cdAliquotaA: json['cd_Aliquota_A'],
+      cdAliquotaV: json['cd_Aliquota_V'],
+      cdCGContoAI: json['cd_CGConto_AI'],
+      cdCGContoVI: json['cd_CGConto_VI'],
+      cdCGContoAE: json['cd_CGConto_AE'],
+      cdCGContoVE: json['cd_CGConto_VE'],
+      cdVbReparto: json['cd_VbReparto'],
+      ricarica: json['ricarica'] as String?,
+      userIns: json['userIns'] as String?,
+      userUpd: json['userUpd'] as String?,
+      timeIns: json['timeIns'] as String?,
+      timeUpd: json['timeUpd'] as String?,
+      ts: json['ts'] as String?,
+    );
+
+Map<String, dynamic> _$Gruppo3ToJson(Gruppo3 instance) => <String, dynamic>{
+      'id_ARGruppo3': instance.idARGruppo3,
+      'cd_ARGruppo1': instance.cdARGruppo1,
+      'cd_ARGruppo2': instance.cdARGruppo2,
+      'cd_ARGruppo3': instance.cdARGruppo3,
+      'Descrizione': instance.descrizione,
+      'sconto': instance.sconto,
+      'provvigione': instance.provvigione,
+      'cd_CAVda_VI': instance.cdCAVdaVI,
+      'cd_CAVda_VE': instance.cdCAVdaVE,
+      'cd_CAVda_AI': instance.cdCAVdaAI,
+      'cd_CAVda_AE': instance.cdCAVdaAE,
+      'cd_Aliquota_A': instance.cdAliquotaA,
+      'cd_Aliquota_V': instance.cdAliquotaV,
+      'cd_CGConto_AI': instance.cdCGContoAI,
+      'cd_CGConto_VI': instance.cdCGContoVI,
+      'cd_CGConto_AE': instance.cdCGContoAE,
+      'cd_CGConto_VE': instance.cdCGContoVE,
+      'cd_VbReparto': instance.cdVbReparto,
+      'ricarica': instance.ricarica,
+      'userIns': instance.userIns,
+      'userUpd': instance.userUpd,
+      'timeIns': instance.timeIns,
+      'timeUpd': instance.timeUpd,
+      'ts': instance.ts,
+    };
